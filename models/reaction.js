@@ -1,7 +1,7 @@
-const mongoose = require('mongoose');
+const {  Schema, model, Types } = require('mongoose');
 
 // Construct a new instance of the schema class
-const reactionSchema = new mongoose.Schema({
+const reactionSchema = new Schema({
     // Configure individual properties using Schema Types
     reactionId:[{type: Schema.Types.ObjectId, default: () => new Types.ObjectId(),}],
     reactionBody: { type: String, required: true, maxlenght: 280,},
