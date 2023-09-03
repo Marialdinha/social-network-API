@@ -1,4 +1,4 @@
-const { User } = require('../models');
+const { User, Thought } = require('../models');
 
 module.exports = {
     // create a new user
@@ -21,7 +21,7 @@ module.exports = {
         }
       },
 
-      // get single usr
+      // get single user
     async getSingleUser(req, res) {
         try {
           const user = await User.findOne({ _id: req.params.userId })
@@ -64,7 +64,7 @@ module.exports = {
       if (!user) {
         return res.status(404).json({ message: 'No user with this id!' });
       }
-
+      
       res.json({ message: 'User successfully deleted!' });
     } catch (err) {
       res.status(500).json(err);
