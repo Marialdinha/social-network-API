@@ -9,11 +9,14 @@
   - [Videos](#videos)
   - [Contact](#contact)
 
+## Description
+This is an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. This API uses Express.js for routing, a MongoDB database, and the Mongoose ODM. 
+
 ## Videos
-First video showing how to initialzie the applicantion and the user routes <br/> <br/>
+First video showing how to initialzie the applicantion and the user routes: <br/>
 https://drive.google.com/file/d/1xr4vb0hgaREAf_R-vAYWRJeHD6ESLWVR/view
  
-Second video showing the thought routes <br/> <br/>
+Second video showing the thought routes: <br/>
 https://drive.google.com/file/d/1h1WLzzL2NXFn66qbwEGCli3ySqG9pINB/view
 
 ## Contact
