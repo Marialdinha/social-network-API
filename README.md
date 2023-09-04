@@ -12,9 +12,27 @@
 ## Description
 This is an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. This API uses Express.js for routing, a MongoDB database, and the Mongoose ODM. 
 
+
+## Screenshot
+This appliation can run form Visual Studio Code by using npm start. <br/> <br/>
+![localhost](./assets/app-screenshot.png) <br/> <br/> 
+
 ## Installation 
 1 - npm i (to initialize) <br/>
 2 - npm start (for the app to start running on the server) <br/>
+
+## Usage
+1 - npm start in the terminal <br/>
+2 - Go to Insomnia to test all routes below: <br/>
+  - `/api/users`
+  - `/api/users/:userId`
+  - `/api/users/:userId/friends/:friendId`
+  - `/api/thoughts`
+  - `/api/thoughts/:toughtId`
+  - `/api/thoughts/:toughtId/reactions`
+  - `/api/thoughts/:toughtId/reactions/:reactionId`
+
+![localhost](./assets/insomnia-screenshot.png) <br/> <br/> 
 
 ## Videos
 First video showing how to initialzie the applicantion and the user routes: <br/>
